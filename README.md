@@ -1,6 +1,7 @@
 # Colored Regions for Visual Studio Code
 
 This package provides a simple way of colorizing regions.
+[FORK] support without brackets for personal usages.
 
 ## Installation
 
@@ -24,11 +25,11 @@ Customize your regions by providing a `rgba(r, g, b, a)` color, or create a cust
 
 Settings will be read from (listed by priority):
 
-1) package.json (workspace)
+1.  package.json (workspace)
 
 ![package settings](images/package_settings.png)
 
-2) user settings
+2.  user settings
 
 ![user settings](images/user_settings.png)
 
@@ -38,8 +39,8 @@ Settings will be read from (listed by priority):
 
 ## Roadmap
 
-1. <s>Settings</s> -  done!
-2. Support for nested regions
+1.  <s>Settings</s> - done!
+2.  Support for nested regions
 
 ## Release Notes
 
@@ -49,7 +50,7 @@ Settings will be read from (listed by priority):
 
 ![named colors](images/named_colors.png)
 
-* Named colors defined in **package.json** (workspace) 
+* Named colors defined in **package.json** (workspace)
 
 ![package settings](images/package_settings.png)
 
@@ -57,13 +58,11 @@ Settings will be read from (listed by priority):
 
 ![user settings](images/user_settings.png)
 
-
 ### 0.0.2
 
 * Added support for more languages
 
 ![supported regions](images/supported_regions.png)
-
 
 ### 0.0.1
 
