@@ -22,7 +22,7 @@ interface DecoratorInstances {
 export function activate(context: vscode.ExtensionContext) {
   const namedColors: NamedColorsMap = {};
   const decoratorInstances: DecoratorInstances = {};
-  const regionRegex = /[Rr]egion ?\[( ?[\w\d., ()]+ ?)\]([\s\S]*?)[Ee]nd ?[Rr]egion/g;
+  const regionRegex = /[Rr]egion ?\[?( ?[\w\d., ()]+ ?)\]?([\s\S]*?)[Ee]nd ?[Rr]egion/g;
   const colorRegex = /rgba\(\d{1,3},\d{1,3},\d{1,3},\d(?:\.\d{1,2})?\)/g;
 
   //#region [Subscriptions]
